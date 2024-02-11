@@ -10,7 +10,7 @@ body, html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("se1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sec1.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,7 +54,132 @@ body, html {
   </div>
 </div>
 
-<p></p>
+</body>
+
+
+
+  
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>COURSES WE OFFER</h1>
+<hr>
+
+<h2>ALL COUSES ARE OMLINE</h2>
+<p>ALL COUSES ARE FREE YOU ONLY PAY K75 FOR THE CERTIFICATE</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="sec2.jpg" alt="Mountains" style="width:100%">
+      <h3>Cyber security</h3>
+      <p>Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="data1.jpg" alt="Lights" style="width:100%">
+      <h3>Data Analysis And Managment With SPSS</h3>
+      <p>SPSS provides data analysis for descriptive and bivariate statistics, numeral outcome predictions and predictions for identifying groups. The software also provides data transformation, graphing and direct marketing features.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="hack1.jpg" alt="Nature" style="width:100%">
+      <h3>full-stack developer</h3>
+      <p>A full-stack developer is a developer or engineer who can build both the front end and the back end of a website. The front end (the parts of a website a user sees and interacts with) and the back end (the behind-the-scenes data storage and processing) require different</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="sec1.jpg" alt="Mountains" style="width:100%">
+      <h3>Advanced Excel</h3>
+      <p>Advanced Excel skills include the ability to produce graphs and tables, use spreadsheets efficiently, and perform calculations and automation to process large volumes of data</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="suliclogo.jpg" alt="Bear" style="width:100%">
+  <h3>About Us</h3>
+  <p>South Luangwa ICT Center its an online school,that offers free short courses and reward student with Certificate of Competency (COC)</p>
+  <p>Why we do online classes only? the answer is simple we want our students get used with electronic devices</p>
+</div>
+
+<!-- END MAIN -->
+</div>
 
 </body>
 </html>
